@@ -7,7 +7,7 @@ int main()
 
     printf("Digite o raio da circunferência:");
     scanf("%f", &raio);
-    area = Pi * raio;
+    area = Pi * raio * raio;
     perimetro = 2 * Pi * raio;
 
     printf("Área = %f\nPerímetro = %f\n", area, perimetro);
