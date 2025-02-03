@@ -14,10 +14,11 @@ int main()
     {
     case 'M':
     case 'm':
-        imposto = imposto + 0.05;
+        imposto = 0.15;
+        break;
     case 'F':
     case 'f':
-        imposto = imposto + 0.10;
+        imposto = 0.10;
     }
     printf("Imposto %.2f\n", salario * imposto);
 }
