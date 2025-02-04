@@ -12,7 +12,6 @@ int main()
         {
             printf("Pressione <ENTER> para continuar...");
             getchar();
-            getchar();
         }
     }
 }
