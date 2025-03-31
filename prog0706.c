@@ -17,11 +17,10 @@
             printf("Nome: ");
             fgets(Nome, sizeof(Nome), stdin);
     
-            // Remove o caractere de nova linha, se presente
             Nome[strcspn(Nome, "\n")] = '\0';
     
             puts(Nome);
-        } while (strcmp(Nome, "sair") != 0);
+        } while (meu_strcmp(Nome, "sair") != 0);
     
         puts("Saindo do programa...");
         return 0;
